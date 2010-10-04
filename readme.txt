@@ -54,12 +54,15 @@ Known issues:
 1. imgs via https are not supported.(It will be solved in next version)
 
 安装：
-1、将imgcache文件夹放入wp-content/plugins文件夹
-2、进入插件管理页面，将imgcache激活
-3、在“设置”菜单选择ImgCache，阅读说明
+
+1. 将imgcache文件夹放入wp-content/plugins文件夹
+
+2. 进入插件管理页面，将imgcache激活
+
+3. 在“设置”菜单选择ImgCache，阅读说明
 
 使用：
-1、在img标签中加入值为imgcache4wordpress的ref属性
+1. 在img标签中加入值为imgcache4wordpress的ref属性
 
 比如说，
     一般情况下，我们如果想展示一个图片，就会写成
@@ -68,11 +71,15 @@ Known issues:
         <img ref=imgcache4wordpress src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 />
 
 注意：
-1、一幅图片如果被缓存后，在一个小时后才会被重新缓存。
-2、本站图片不会被缓存，只缓存其它站点的图片。
-3、如果插件无法对图片进行缓存（链接错误、无权限等等引起的），将会使用其原始URL
+
+1. 一幅图片如果被缓存后，在一个小时后才会被重新缓存。
+
+2. 本站图片不会被缓存，只缓存其它站点的图片。
+
+3. 如果插件无法对图片进行缓存（链接错误、无权限等等引起的），将会使用其原始URL
 
 已知问题：
+
 1、链接为https的图片无法被缓存（将会在新版本中解决）
 
 == Screenshots == 
