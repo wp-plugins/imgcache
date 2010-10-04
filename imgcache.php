@@ -153,7 +153,7 @@ To use:
 1. Add the ref property whose value is imgcache4wordpress into the img tag.
 
 For example, 
-    if you wanna cache the pic ( http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 ), we can write 
+    if you wanna cache the pic ( http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 ), we can use 
         &#60;img ref=imgcache4wordpress src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 /&#62;
     instead of 
         &#60;img src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 /&#62;
