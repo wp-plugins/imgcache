@@ -38,11 +38,12 @@ To use:
 
 For example, 
     if you wanna cache the pic ( http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 ), we can write 
-        <pre><img ref=imgcache4wordpress src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 /></pre>
+        <img ref=imgcache4wordpress src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 />
     instead of 
-        <pre><img src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 /></pre>
+        <img src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 />
 
 Warning:
+
 1. The imgs will not be recache in one hour, if their cached imgs exist.
 
 2. The imgs in own sites will not be cached.
@@ -62,9 +63,9 @@ Known issues:
 
 比如说，
     一般情况下，我们如果想展示一个图片，就会写成
-        <pre><img src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 /></pre>
+        <img src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 />
     如果想对该图片作缓存展示的话，需要改为
-        <pre><img ref=imgcache4wordpress src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 /></pre>
+        <img ref=imgcache4wordpress src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 />
 
 注意：
 1、一幅图片如果被缓存后，在一个小时后才会被重新缓存。
