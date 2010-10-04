@@ -37,10 +37,14 @@ To use:
 1. Add the ref property whose value is imgcache4wordpress into the img tag.
 
 For example, 
-    if you wanna cache the pic ( http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 ), we can write 
-        <img ref=imgcache4wordpress src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 />
+
+    if you wanna cache the pic ( http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 ), we can use 
+
+        &#60;img ref=imgcache4wordpress src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 /&#62;
+
     instead of 
-        <img src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 />
+
+        &#60;img src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 /&#62;
 
 Warning:
 
@@ -51,6 +55,7 @@ Warning:
 3. If the imgs cann't be cache by this plugin (such as 404, 403), the original url of the imgs will be used.
 
 Known issues:
+
 1. imgs via https are not supported.(It will be solved in next version)
 
 安装：
@@ -62,13 +67,18 @@ Known issues:
 3. 在“设置”菜单选择ImgCache，阅读说明
 
 使用：
+
 1. 在img标签中加入值为imgcache4wordpress的ref属性
 
 比如说，
+
     一般情况下，我们如果想展示一个图片，就会写成
-        <img src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 />
+
+        &#60;img src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 /&#62;
+
     如果想对该图片作缓存展示的话，需要改为
-        <img ref=imgcache4wordpress src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 />
+
+        &#60;img ref=imgcache4wordpress src=http://www.gravatar.com/avatar/27026e1c60e2659f3350af30b78565b0?s=80 /&#62;
 
 注意：
 
