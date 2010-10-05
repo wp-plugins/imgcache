@@ -4,7 +4,7 @@ Plugin Name: ImgCache
 Plugin URI: http://www.iron-feet.com/it/wordpress-plugin-imgcache/
 Description: Cache the imgs from other domains.
 Author: Iron_Feet
-Version: 0.1
+Version: 0.1.1
 Author URI: http://www.iron-feet.com/
  */
 
