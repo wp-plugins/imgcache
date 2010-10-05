@@ -4,7 +4,7 @@ Donate link: http://www.iron-feet.com/
 Tags: cache, image, ImgCache 
 Requires at least: 2.6
 Tested up to: 2.9
-Stable tag: 0.1
+Stable tag: 0.1.1
  
 Cache the imgs from other domains.
 为其他站点下的图片作缓存。
@@ -97,6 +97,9 @@ Known issues:
 1. http://www.iron-feet.com
  
 == Changelog == 
+
+= 0.1.1
+* remove redundancy warning
 
 = 0.1 =
 * initial release 

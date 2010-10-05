@@ -8,6 +8,8 @@ Version: 0.1
 Author URI: http://www.iron-feet.com/
  */
 
+error_reporting(E_ALL^E_NOTICE^E_WARNING);
+
 // Pre-2.6 compatibility
 if( !defined('WP_CONTENT_URL') )
     define( 'WP_CONTENT_URL', get_option('siteurl') . '/wp-content');
